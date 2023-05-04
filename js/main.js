@@ -9,6 +9,9 @@ const itemTitleFive = document.querySelectorAll('.item__title');
 
 const itemsList = document.querySelectorAll('.item');
 
+const ads = document.querySelector('.ads');
+ads.remove();
+
 function insertAfter(fromItem, indexOne, toItem, indexTwo) {
   const firstItem = fromItem[indexOne];
   const secondItem = toItem[indexTwo];
